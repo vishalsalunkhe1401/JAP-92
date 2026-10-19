@@ -1,0 +1,48 @@
+/*
+compile:-  javac -d bin src/p1/Circle.java src/p1/Rectangle.java src/p1/Shape.java src/p1/Square.java src/p2/App.java
+
+run:- java -cp bin p2.App
+
+*/
+
+package p2;
+import p1.Shape;
+import p1.Circle;
+import p1.Rectangle;
+import p1.Square;
+public class App{
+	
+	 public static void main(String[] args) {
+
+	 	Shape s1=new Circle(4.2,"Red",true);
+
+	 	Shape s2=new Rectangle(3.0,4.0,"Black",false);
+
+	 	Rectangle r1=new Square(6.2,"Blue",true);
+
+	 	System.out.println("Circle: "+s1.toString());
+	 	System.out.println("Area of Circle: "+s1.getArea());
+	 	System.out.println("Perimeter of Circle: "+s1.getPerimeter());
+
+	 	System.out.println("____________________________________________________");
+
+	 	System.out.println("Rectangle: "+s2.toString());
+	 	System.out.println("Area of Rectangle: "+s2.getArea());
+	 	System.out.println("Perimeter of Rectangle: "+s2.getPerimeter());
+
+       System.out.println("____________________________________________________");
+
+       	System.out.println("Square: "+r1.toString());
+		System.out.println("Area Of Square: "+r1.getArea());
+		System.out.println("Perimeter Of Square: "+r1.getPerimeter());
+
+		r1.setWidth(2.5);
+		r1.setLength(5.5);
+		System.out.println("Square: "+r1.toString()); 
+
+
+  
+
+		
+	}
+}
