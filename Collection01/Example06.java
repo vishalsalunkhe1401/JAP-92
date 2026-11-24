@@ -14,6 +14,12 @@ public class Example06{
 
    //Object ob[]=numbers.toArray();
 
+  // Integer arr[]=new Integer[numbers.size()];
+  //       Integer A[]=numbers.toArray(arr);
+
+  //       for(Integer ele : A)
+  //           System.out.println(ele);
+
    Integer arr[]=new Integer[numbers.size()];
    numbers.toArray(arr);
 

@@ -1,12 +1,10 @@
- sum of n mumbers
-
- import java.util.Scanner; public class Ex1{
+ //sum of n mumbers
+ import java.util.Scanner;
+  public class Ex1{
      public static void main(String args[]){
-         int num;         Scanner sc = new Scanner(System.in);
+         int num;        
+         Scanner sc = new Scanner(System.in);
          num=sc.nextInt();
-
-
-
         System.out.print("Enter a number :");
          num=sc.nextInt();
          int sum=0;

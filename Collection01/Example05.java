@@ -24,6 +24,8 @@ public class Example05{
 
 		        System.out.println("Update List 1 "+list1);
 
+		        //retain all
+
 		        
 
 	}
